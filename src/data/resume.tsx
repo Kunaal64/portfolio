@@ -29,7 +29,7 @@ export const DATA = {
     { href: "/blog", icon: TrophyIcon, label: "Achievements" },
   ],
   contact: {
-    email: "hello@example.com",
+    email: "kunaall1001@gmail.com",
     tel: "+123456789",
     social: {
       GitHub: {
