@@ -8,7 +8,7 @@ export const DATA = {
   location: "Indore",
   locationLink: "https://www.google.com/maps/place/Indore",
   description:
-    "Trying to beeee a Developer who loves just sleeping. ",
+    "Trying to beeee a Developer, who just loves sleeping. ",
   summary:
     "Hey there! I'm all about the simple joys inspired by pandas and Shinchan eating, sleeping, a bit of work, and then doing it all over again. I love exploring the colorful world around us and playing with different shades of universe. Designing and bringing ideas to life in web development is my jam. Plus, I'm a tech enthusiast with a decent grasp of C, C++, and some Java and Python basics. When I'm not immersed in coding, you'll probably find me curled up enjoying a nature walk or sleeping . Let's keep it fun, keep learning, and embrace the beauty of simplicity!",
   avatarUrl: "/me.png",
@@ -70,17 +70,29 @@ export const DATA = {
 
   work: [
     {
-      company: "Essential Protects",
-      href: "https://essentielprotect.fr/en/",
+      company: "Resilience AI",
+      href: "https://resilience360.ai/",
       badges: [],
       location: "Remote",
       title: "Frontend Developer Intern",
-      logoUrl: "https://essentielprotect.fr/themes/essentiel/assets/logo.webp",
-      start: "Nov 2023",
-      end: "April 2024",
+      logoUrl: "https://resilience360.ai/wp-content/uploads/2024/05/Group-2-1-1.webp",
+      start: "March 2026",
+      end: "Present",
       description:
-        "Worked with a French startup on menstrual hygiene products, enhancing their website’s frontend design and usability by adding 5+ new components/pages, while managing complex forms using React Hook Form with Zod validation and implementing a secure Cloudflare R2 file storage system supporting uploads up to 50MB (tested with 15+ product assets).",
+        "As a Frontend intern at Resilience AI, I contribute to the frontend team by improving our dashboards and making them easier to use. Right now, I'm helping support a multilingual setup using React i18n. I also collaborate on the geospatial side of things, working on the ResSolv platform to help render interactive, multi-layered maps using vector tiles. Alongside these features, I assist with state management using Redux and connect APIs for tools like report sharing and email validation.",
     },
+    // {
+    //   company: "Essential Protects",
+    //   href: "https://essentielprotect.fr/en/",
+    //   badges: [],
+    //   location: "Remote",
+    //   title: "Frontend Developer Intern",
+    //   logoUrl: "https://essentielprotect.fr/themes/essentiel/assets/logo.webp",
+    //   start: "Nov 2023",
+    //   end: "April 2024",
+    //   description:
+    //     "Worked with a French startup on menstrual hygiene products, enhancing their website’s frontend design and usability by adding 5+ new components/pages, while managing complex forms using React Hook Form with Zod validation and implementing a secure Cloudflare R2 file storage system supporting uploads up to 50MB (tested with 15+ product assets).",
+    // },
   
   ],
   education: [
@@ -96,8 +108,8 @@ export const DATA = {
       school: "Macro Vision Academy",
       href: "https://mvaburhanpur.com/",
       degree: "Schooling..",
-      logoUrl: "https://mvaburhanpur.com/front_theme/images/logo.png",
-      start: "2016",
+      logoUrl: "https://mvaburhanpur.com/favicon.png",
+      start: "2019",
       end: "2021",
     },
 

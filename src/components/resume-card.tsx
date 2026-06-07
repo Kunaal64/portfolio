@@ -6,7 +6,7 @@ import { Card, CardHeader } from "@/components/ui/card";
 import { cn } from "@/lib/utils";
 import { motion } from "framer-motion";
 import { ChevronRightIcon } from "lucide-react";
-import Link from "next/link";
+// import Link from "next/link";
 import React from "react";
 
 interface ResumeCardProps {
@@ -31,20 +31,18 @@ export const ResumeCard = ({
 }: ResumeCardProps) => {
   const [isExpanded, setIsExpanded] = React.useState(false);
 
-  const handleClick = (e: React.MouseEvent<HTMLAnchorElement, MouseEvent>) => {
+  const handleCardClick = () => {
     if (description) {
-      e.preventDefault();
       setIsExpanded(!isExpanded);
     }
   };
 
   return (
-    <Link
-      href={href || "#"}
-      className="block cursor-pointer"
-      onClick={handleClick}
+    <Card
+      className={cn("flex", description && "cursor-pointer")}
+      onClick={handleCardClick}
     >
-      <Card className="flex">
+    {/* <Card className="flex"> */}
         <div className="flex-none">
           <Avatar className="border size-12 m-auto bg-muted-background dark:bg-foreground">
             <AvatarImage
@@ -59,7 +57,19 @@ export const ResumeCard = ({
           <CardHeader>
             <div className="flex items-center justify-between gap-x-2 text-base">
               <h3 className="inline-flex items-center justify-center font-semibold leading-none text-xs sm:text-sm">
-                {title}
+                {href ? (
+                <a
+                  href={href}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="hover:underline"
+                  onClick={(e) => e.stopPropagation()}
+                >
+                  {title}
+                </a>
+              ) : (
+                title
+              )}
                 {badges && (
                   <span className="inline-flex gap-x-1">
                     {badges.map((badge, index) => (
@@ -105,6 +115,5 @@ export const ResumeCard = ({
           )}
         </div>
       </Card>
-    </Link>
   );
 };
