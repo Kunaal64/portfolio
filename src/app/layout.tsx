@@ -7,6 +7,7 @@ import type { Metadata } from "next";
 import { Inter as FontSans } from "next/font/google";
 import "./globals.css";
 import ClientLayout from "./ClientLayout";
+import { Analytics } from "@vercel/analytics/next";
 
 const fontSans = FontSans({
   subsets: ["latin"],
@@ -68,6 +69,7 @@ export default function RootLayout({
               {children}
               <Navbar />
             </ClientLayout>
+            <Analytics />
           </TooltipProvider>
         </ThemeProvider>
       </body>
