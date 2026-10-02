@@ -70,6 +70,18 @@ export const DATA = {
 
   work: [
     {
+      company: "Deloitte.",
+      href: "https://www.deloitte.com/in/en.html",
+      badges: [],
+      location: "Remote",
+      title: "SDE I",
+      logoUrl: "/deloittelogo.webp",
+      start: "September 2026",
+      end: "Present",
+      description:
+        "Working as a Software Developer at Deloitte, contributing to the development of SourceToPayWise (S2P), a procurement asset by Deloitte. My role involves developing  the mobile application for the platform, while also contributing to its web application. I work on building user-friendly interfaces, implementing features, integrating APIs, and ensuring a consistent experience across both mobile and web platforms.",
+    },
+    {
       company: "Resilience AI",
       href: "https://resilience360.ai/",
       badges: [],
@@ -77,7 +89,7 @@ export const DATA = {
       title: "Frontend Developer Intern",
       logoUrl: "https://resilience360.ai/wp-content/uploads/2024/05/Group-2-1-1.webp",
       start: "March 2026",
-      end: "Present",
+      end: "August 2026",
       description:
         "As a Frontend intern at Resilience AI, I contribute to the frontend team by improving our dashboards and making them easier to use. Right now, I'm helping support a multilingual setup using React i18n. I also collaborate on the geospatial side of things, working on the ResSolv platform to help render interactive, multi-layered maps using vector tiles. Alongside these features, I assist with state management using Redux and connect APIs for tools like report sharing and email validation.",
     },
@@ -108,7 +120,7 @@ export const DATA = {
       school: "Macro Vision Academy",
       href: "https://mvaburhanpur.com/",
       degree: "Schooling..",
-      logoUrl: "https://mvaburhanpur.com/favicon.png",
+      logoUrl: "/mvaicon.png",
       start: "2019",
       end: "2021",
     },
